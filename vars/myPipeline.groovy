@@ -7,7 +7,7 @@ void call() {
         stages {
             stage ("call github lib") {
                 steps {
-                    helloWorld()
+                    echo "success!"
                 }
             }
         }
